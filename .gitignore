@@ -27,7 +27,6 @@ MANIFEST
 *.pkl
 
 # Data files
-*.csv
 *.png
 *.jpg
 *.jpeg
@@ -42,7 +41,7 @@ logs/
 
 # Models
 models/
-*.json
+*.pth
 
 # Analysis results
 analysis_results/
