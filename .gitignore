@@ -41,6 +41,7 @@ logs/
 
 # Models
 models/
+!models/**/*.json
 *.pth
 
 # Analysis results
@@ -49,6 +50,7 @@ gradcam_results/
 
 # Data directories
 data/
+!data/**/*.csv
 image_data/
 
 # IDE
