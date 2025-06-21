@@ -1,0 +1,10 @@
+=== Centralized Learning Experiments with densenet121 (Thu Jun 12 05:52:54 AM UTC 2025) ===
+CSV: data/meta_info_with_manufacturer_use_split_cl_new.csv
+Epochs: 20
+Device: cuda
+Seed: 42
+
+Basic CL completed. See log: logs/cl/densenet121/cl_densenet121_basic_20250610_131140.log
+Augmented CL completed. See log: logs/cl/densenet121/cl_densenet121_aug_20250610_131140.log
+Basic model testing completed. See log: logs/cl/densenet121/cl_densenet121_test_basic_20250610_131140.log
+Augmented model testing completed. See log: logs/cl/densenet121/cl_densenet121_test_aug_20250610_131140.log

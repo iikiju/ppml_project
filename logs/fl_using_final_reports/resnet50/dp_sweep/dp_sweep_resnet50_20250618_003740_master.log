@@ -1,0 +1,22 @@
+=== DP Noise Sweep Experiments with resnet50 (Wed Jun 18 12:37:40 AM UTC 2025) ===
+CSV: data/meta_info_with_manufacturer_use_federated_new.csv
+Rounds: 20
+Device: cuda
+Seed: 42
+Target Epsilon: 50.0
+Delta: 1e-1
+
+📊 DP Sweep - Batch size: 8, Sample rate: 0.005333333333333333, Local epochs: 3
+📊 Recommended noise multiplier: 0.36644287109375 for target epsilon: 50.0
+DP FL (noise=0.0001) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise0.0001_20250618_003740.log
+Model testing (noise=0.0001) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_test_dp_noise0.0001_20250618_003740.log
+DP FL (noise=0.001) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise0.001_20250618_003740.log
+Model testing (noise=0.001) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_test_dp_noise0.001_20250618_003740.log
+DP FL (noise=0.01) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise0.01_20250618_003740.log
+⚠️ Model file for noise=0.01 not found, skipping test
+DP FL (noise=0.1) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise0.1_20250618_003740.log
+Model testing (noise=0.1) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_test_dp_noise0.1_20250618_003740.log
+DP FL (noise=1) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise1_20250618_003740.log
+Model testing (noise=1) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_test_dp_noise1_20250618_003740.log
+DP FL (noise=10) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_dp_noise10_20250618_003740.log
+Model testing (noise=10) completed. See log: logs/fl/resnet50/dp_sweep/fl_resnet50_test_dp_noise10_20250618_003740.log

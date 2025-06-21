@@ -1,0 +1,10 @@
+=== Centralized Learning Experiments with resnet50 (Tue Jun 10 01:11:40 PM UTC 2025) ===
+CSV: data/meta_info_with_manufacturer_use_split_cl_new.csv
+Epochs: 20
+Device: cuda
+Seed: 42
+
+Basic CL completed. See log: logs/cl/resnet50/cl_resnet50_basic_20250610_131140.log
+Augmented CL completed. See log: logs/cl/resnet50/cl_resnet50_aug_20250610_131140.log
+Basic model testing completed. See log: logs/cl/resnet50/cl_resnet50_test_basic_20250610_131140.log
+Augmented model testing completed. See log: logs/cl/resnet50/cl_resnet50_test_aug_20250610_131140.log

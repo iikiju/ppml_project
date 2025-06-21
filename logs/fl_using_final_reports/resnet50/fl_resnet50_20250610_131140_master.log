@@ -1,0 +1,35 @@
+=== Federated Learning Experiments with resnet50 (Tue Jun 10 02:41:24 PM UTC 2025) ===
+CSV: data/meta_info_with_manufacturer_use_federated_new.csv
+Rounds: 20
+Device: cuda
+Seed: 42
+Target Epsilon: 50.0
+Delta: 1e-1
+
+Basic FL completed. See log: logs/fl/resnet50/fl_resnet50_basic_20250610_131140.log
+Augmented FL completed. See log: logs/fl/resnet50/fl_resnet50_aug_20250610_131140.log
+📊 Batch size: 8, Sample rate: 0.008, Local epochs: 5, Steps: 12500.00000000000000000000
+📊 Recommended noise multiplier: 0.41754150390625006 for target epsilon: 50.0
+DP FL (target epsilon) completed. See log: logs/fl/resnet50/fl_resnet50_dp_target_20250610_131140.log
+DP Target model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_dp_target_20250610_131140.log
+DP + Augmented FL (target epsilon) completed. See log: logs/fl/resnet50/fl_resnet50_dp_aug_target_20250610_131140.log
+DP FL (fixed noise) completed. See log: logs/fl/resnet50/fl_resnet50_dp_fixed_20250610_131140.log
+DP + Augmented FL (fixed noise) completed. See log: logs/fl/resnet50/fl_resnet50_dp_aug_fixed_20250610_131140.log
+Basic model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_basic_fl_20250610_131140.log
+Augmented model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_aug_fl_20250610_131140.log
+DP (Target ε) model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_dp_target_fl_20250610_131140.log
+DP+Aug (Target ε) model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_dp_aug_target_fl_20250610_131140.log
+DP (Fixed) model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_dp_fixed_fl_20250610_131140.log
+DP+Aug (Fixed) model testing completed. See log: logs/fl/resnet50/fl_resnet50_test_dp_aug_fixed_fl_20250610_131140.log
+
+=== FL Experiments Results Summary ===
+Basic: Accuracy 0.8340, ε=N/A
+Augmented: Accuracy 0.9022, ε=N/A
+DP (Target ε): Accuracy 0.5806, ε=unknown
+DP+Aug (Target ε): Accuracy 0.5806, ε=unknown
+DP (Fixed): Accuracy 0.5806, ε=unknown
+DP+Aug (Fixed): Accuracy 0.5806, ε=unknown
+  File "<string>", line 18
+    for line in """Basic: Accuracy 0.8340, ε=N/A
+                                                ^
+SyntaxError: EOF while scanning triple-quoted string literal

@@ -36,20 +36,20 @@ MANIFEST
 *.ico
 
 # Logs
-logs/
-*.log
+# logs/
+# *.log
 
 # Models
 models/
-!models/**/*.json
-*.pth
+!models/**/**/*.json
+models/**/**/*.pth
 
 # Analysis results
 analysis_results/
 gradcam_results/
 
 # Data directories
-data/
+# data/
 !data/**/*.csv
 image_data/
 
